@@ -1,5 +1,6 @@
 package com.example.chocolateapp;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.widget.Toast;
 
@@ -9,7 +10,7 @@ import com.shashank.sony.fancywalkthroughlib.FancyWalkthroughCard;
 import java.util.ArrayList;
 import java.util.List;
 
-public class MainActivity extends FancyWalkthroughActivity {
+public class WalkthroughActivity extends FancyWalkthroughActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -54,7 +55,8 @@ public class MainActivity extends FancyWalkthroughActivity {
 
     @Override
     public void onFinishButtonPressed() {
-        Toast.makeText(this, "Finish Pressed", Toast.LENGTH_SHORT).show();
-
+        Intent intent = new Intent(WalkthroughActivity.this, HomeActivity.class);
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
+        startActivity(intent);
     }
 }
