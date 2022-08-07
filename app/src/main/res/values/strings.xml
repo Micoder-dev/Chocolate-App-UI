@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">ChocolateApp</string>
+
+    <string name="sample_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, rem.</string>
 </resources>
