@@ -3,8 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="?attr/actionBarSize"
     android:id="@+id/main_app_bar"
-    android:background="#88ffffff"
-    style="@style/Widget.MaterialComponents.Toolbar.Primary"
-    android:elevation="20dp">
+    android:background="@android:color/transparent"
+    style="@style/Widget.MaterialComponents.Toolbar.Primary">
 
 </com.google.android.material.appbar.MaterialToolbar>
