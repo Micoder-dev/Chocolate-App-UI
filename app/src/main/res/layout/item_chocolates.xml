@@ -17,18 +17,19 @@
             android:textStyle="bold"
             android:layout_marginHorizontal="30dp"
             android:textColor="#7c514b"
-            android:textSize="45sp"/>
+            android:textSize="35sp"
+            android:fontFamily="@font/game_of_squids"/>
 
         <RelativeLayout
             android:id="@+id/relative_back"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
-            android:background="@drawable/chocolate_bg">
+            android:background="@drawable/choco_card_bg">
             <ImageView
                 android:id="@+id/iv_decoration"
                 android:layout_width="match_parent"
                 android:layout_height="match_parent"
-                android:src="@drawable/choco_1"/>
+                android:src="@drawable/choco_fall"/>
 
             <LinearLayout
                 android:layout_width="match_parent"
@@ -43,7 +44,8 @@
                     android:text="Something"
                     android:textColor="@color/white"
                     android:textSize="35sp"
-                    android:textStyle="bold" />
+                    android:textStyle="bold"
+                    android:fontFamily="@font/game_of_squids"/>
 
                 <TextView
                     android:id="@+id/tv_desc"
@@ -51,7 +53,9 @@
                     android:layout_height="wrap_content"
                     android:layout_marginTop="20dp"
                     android:text="@string/sample_text"
-                    android:textColor="@color/white" />
+                    android:textColor="@color/white"
+                    android:fontFamily="@font/game_of_squids"
+                    android:textSize="14sp"/>
             </LinearLayout>
         </RelativeLayout>
 
@@ -62,8 +66,8 @@
         android:layout_width="300dp"
         android:layout_height="450dp"
         android:layout_gravity="end"
-        android:layout_marginTop="-400dp"
+        android:layout_marginTop="-340dp"
         android:layout_marginRight="-20dp"
-        android:src="@drawable/chocolate_logo4"/>
+        android:src="@drawable/dairymilk_logo"/>
 
 </LinearLayout>

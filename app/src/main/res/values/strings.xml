@@ -2,4 +2,7 @@
     <string name="app_name">ChocolateApp</string>
 
     <string name="sample_text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium, rem.</string>
+    <string name="diarymilk">Our classic bar of deliciously creamy Cadbury Dairy Milk milk chocolate, made with fresh milk from the British Isles and Ireland. A mouthful of “mmmm” in every piece!</string>
+    <string name="kitkat">Have A Break, Have A KitKat Today With Our Chocolate Wafer Biscuits. Explore Our Classic Products Such As The 2 and 4 Finger Ranges!</string>
+    <string name="fivestar">A delicious indulgent combination of chocolate, caramel and nougat. Longer lasting chewy multi textured chocolate eat experience.</string>
 </resources>

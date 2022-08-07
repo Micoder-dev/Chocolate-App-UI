@@ -68,9 +68,9 @@ public class HomeActivity extends AppCompatActivity {
     }
 
     private void initData() {
-        listCoffee.add(new Chocolate("Something1", "something1", getString(R.string.sample_text), R.drawable.chocolate_logo4, R.drawable.chocolate_bg, R.drawable.choco_1, Color.parseColor("#2d181c")));
-        listCoffee.add(new Chocolate("Something2", "something2", getString(R.string.sample_text), R.drawable.chocolate_logo4, R.drawable.chocolate_bg, R.drawable.choco_1, Color.parseColor("#5d6d1b")));
-        listCoffee.add(new Chocolate("Something3", "something3", getString(R.string.sample_text), R.drawable.chocolate_logo4, R.drawable.chocolate_bg, R.drawable.choco_1, Color.parseColor("#b38868")));
+        listCoffee.add(new Chocolate("DairyMilk Silk", "DairyMilk", getString(R.string.diarymilk), R.drawable.dairymilk_logo, R.drawable.choco_card_bg, R.drawable.choco_fall, Color.parseColor("#2d181c")));
+        listCoffee.add(new Chocolate("KitKat", "Kit Kat", getString(R.string.kitkat), R.drawable.kitkat_logo, R.drawable.choco_card_bg, R.drawable.choco_fall, Color.parseColor("#5d6d1b")));
+        listCoffee.add(new Chocolate("5 Star", "5Star", getString(R.string.fivestar), R.drawable.fivestar_logo, R.drawable.choco_card_bg, R.drawable.choco_fall, Color.parseColor("#b38868")));
 
     }
 }

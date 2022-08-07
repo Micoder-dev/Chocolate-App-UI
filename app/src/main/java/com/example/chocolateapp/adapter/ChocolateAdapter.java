@@ -69,7 +69,7 @@ public class ChocolateAdapter extends PagerAdapter {
         view.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(context, ""+listChocolate, Toast.LENGTH_SHORT).show();
+                Toast.makeText(context, ""+listChocolate.get(position).getTitle(), Toast.LENGTH_SHORT).show();
             }
         });
 
