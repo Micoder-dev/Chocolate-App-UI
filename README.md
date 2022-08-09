@@ -5,6 +5,8 @@
 </p>
 A simple UI made for Candy lover's...
 
+This project has some features like <a href="https://github.com/Micoder-dev/FancyWalkthrough-Android.git">FancyWalkthrough</a> & <a href="https://github.com/Micoder-dev/InfiniteSwipe-ViewPager-UI.git">InfiniteCycleViewPager</a>
+
 <table>
   <tr>
     <td>Walkthrough</td>
