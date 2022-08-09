@@ -13,9 +13,9 @@ A simple UI made for Candy lover's...
     <td>Screen 3</td>
   </tr>
   <tr>
-    <td><img src="s\c1.jpg" width="128"/></td>
-    <td><img src="s\c2.jpg" width="128"/></td>
-    <td><img src="s\c3.jpg" width="128"/></td>
-    <td><img src="s\c4.jpg" width="128"/></td>
+    <td><img src="s\c1.png" width="128"/></td>
+    <td><img src="s\c2.png" width="128"/></td>
+    <td><img src="s\c3.png" width="128"/></td>
+    <td><img src="s\c4.png" width="128"/></td>
   </tr>
  </table>
