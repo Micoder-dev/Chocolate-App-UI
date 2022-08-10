@@ -3,11 +3,12 @@
 <p align="center">
   <img src="s\logo.jpg" width="128"/>
 </p>
-A simple UI made for Candy lover's...
 
+<p align="center">
+A simple UI made for Candy lover's... </br>
 This project has some features like <a href="https://github.com/Micoder-dev/FancyWalkthrough-Android.git">FancyWalkthrough</a> & <a href="https://github.com/Micoder-dev/InfiniteSwipe-ViewPager-UI.git">InfiniteCycleViewPager</a>
 
-<table>
+<table align="center">
   <tr>
     <td>Walkthrough</td>
     <td>Screen 1</td>
@@ -21,3 +22,4 @@ This project has some features like <a href="https://github.com/Micoder-dev/Fanc
     <td><img src="s\c4.png" width="128"/></td>
   </tr>
  </table>
+ </p>
